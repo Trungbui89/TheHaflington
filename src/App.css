@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
+
 :root {
     --main-bg: #06101b;
     --main-text-color: #90855d;
     --body-text-color: #a89b69;
+    --white-text: #fcf2cb;
 }
 
 * {
@@ -276,7 +279,7 @@ body::-webkit-scrollbar {
 .about-title-bot p{
     font-family: 'BIZ UDPMincho', serif;
     font-size: 38px;
-    color: rgb(255, 245, 211);
+    color: var(--white-text);
     margin-bottom: 0;
 }
 
@@ -299,10 +302,49 @@ text-align: center;
     color: var(--main-text-color);
     width: 10%;
     height: 10%;
-    fill: #a89b69;
+    fill: var(--body-text-color);
     transform: rotate(180deg);
 }
 
+/* silder component */
+
+.about-slide-container {
+    width: 100%;
+    position: relative;
+    margin-bottom: 64px;
+}
+
+/* silder panel*/
+
+.about-slide-container .slide-content {
+    width: 90%;
+    height: 100%;
+    position: relative;
+}
+
+.about-slide-container .card-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.about-slide-container .slide-card-items {
+    opacity: 0;
+    z-index: 1;
+}
+
+.about-slide-container .slide-card-items.active {
+    opacity: 1;
+    z-index: 2;
+}
+
+.about-slide-container .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
 
 
 
@@ -350,3 +392,5 @@ address{
         letter-spacing: 3px;
     }
 }
+
+/* about silder */

@@ -1,4 +1,5 @@
 import React from "react"
+import AboutSlider from "./aboutSlider/AboutSlider"
 
 function About() {
     return (
@@ -22,6 +23,7 @@ function About() {
                     </svg>
                 </div>
             </div>
+            <AboutSlider />
         </div>
     )
 }
