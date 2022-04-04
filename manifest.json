@@ -1,0 +1,25 @@
+{
+  "short_name": "The Haflington",
+  "name": "The Haflington pub & bar website",
+  "icons": [
+    {
+      "src": "/assets/icon/logo/small-logo.svg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/assets/icon/logo/small-logo.svg",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/icon/logo/small-logo.svg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
