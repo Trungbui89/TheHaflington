@@ -12,6 +12,14 @@ function Home() {
         parallax.style.backgroundPositionY = `${offset * 0.6}px`
       })
     },[])
+
+    useEffect(() => {
+      const parallax = document.querySelector('.background-bot-container .img-container')
+      window.addEventListener('scroll', function() {
+        let offset = window.scrollY
+        parallax.style.backgroundPositionY = `${offset * 0.6}px`
+      })
+    },[])
   
     return(
       <div className="home-container">

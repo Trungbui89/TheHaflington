@@ -26,6 +26,9 @@ function About() {
             </div>
             <AboutSlider />
             <AboutClips />
+            <div className="background-bot-container">
+                <div className="img-container"></div>
+            </div>
         </div>
     )
 }
