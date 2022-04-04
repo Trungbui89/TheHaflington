@@ -16,8 +16,8 @@ function Main() {
         <div>
             <Header />
                 <Switch>
-                    <Route path='/home' component={HomePage} />
-                    <Redirect to="/home" />
+                    <Route path='/TheHaflington' component={HomePage} />
+                    <Redirect to="/TheHaflington" />
                 </Switch>
             <Footer />
         </div>

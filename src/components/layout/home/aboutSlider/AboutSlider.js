@@ -21,19 +21,19 @@ function AboutSlider() {
                     <div className="slide-content">
                         <div className="slide-card-items preview">
                             <div className="card-image">
-                                <img src="/assets/images/slider/image-1.jpg" alt="" />
+                                <img src="https://raw.githubusercontent.com/Trungbui89/TheHaflington/gh-pages/assets/images/slider/image-1.jpg" alt="" />
                             </div>
                         </div>
 
                         <div className="slide-card-items active">
                             <div className="card-image">
-                                <img src="/assets/images/slider/image-2.jpg" alt="" />
+                                <img src="https://raw.githubusercontent.com/Trungbui89/TheHaflington/gh-pages/assets/images/slider/image-2.jpg" alt="" />
                             </div>
                         </div>
 
                         <div className="slide-card-items next">
                             <div className="card-image">
-                                <img src="/assets/images/slider/image-3.jpg" alt="" />
+                                <img src="https://raw.githubusercontent.com/Trungbui89/TheHaflington/gh-pages/assets/images/slider/image-3.jpg" alt="" />
                             </div>
                         </div>
                     </div>

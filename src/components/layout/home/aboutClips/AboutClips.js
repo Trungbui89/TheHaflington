@@ -20,7 +20,7 @@ function AboutClips() {
                     <div className="clips-content">
                         <div className="clips-card-items">
                             <div className="card-image">
-                                <img src="/assets/images/singer.jpg" alt="" />
+                                <img src="https://raw.githubusercontent.com/Trungbui89/TheHaflington/gh-pages/assets/images/singer.jpg" alt="" />
                             </div>
                         </div>
                     </div>
