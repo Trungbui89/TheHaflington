@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 function Footer() {
 
@@ -14,7 +13,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className='col-12 col-md-8 col-lg-8'>
-                    <p  className='footer-info'>Chưa Biết Ghi Gì Ở Đây :)</p>
+                    <p  className='footer-info'>Chưa Biết Ghi Gì Ở Đây</p>
                 </div>
             </div>
         </div>
