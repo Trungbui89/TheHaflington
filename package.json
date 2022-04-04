@@ -2,7 +2,7 @@
   "name": "the_haflington",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Trungbui89.github.io",
+  "homepage": "https://trungbui89.github.io/TheHaflington",
   "dependencies": {
     "bootstrap": "4.0.0",
     "bootstrap-social": "5.1.1",
@@ -40,5 +40,8 @@
       "react-app/jest"
     ]
   },
-  "browserslist": []
+  "browserslist": [],
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
