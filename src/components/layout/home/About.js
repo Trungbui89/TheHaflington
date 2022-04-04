@@ -1,5 +1,6 @@
 import React from "react"
 import AboutSlider from "./aboutSlider/AboutSlider"
+import AboutClips from "./aboutClips/AboutClips"
 
 function About() {
     return (
@@ -24,6 +25,7 @@ function About() {
                 </div>
             </div>
             <AboutSlider />
+            <AboutClips />
         </div>
     )
 }

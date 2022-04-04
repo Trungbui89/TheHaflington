@@ -66,18 +66,6 @@ function AboutSlider() {
                         </div>
                     </div>
                 </div>
-
-                {/* <div className="slide-body__bg">
-                    <div className="slide-body__bg__image current--image">
-                        <img src="https://source.unsplash.com/Z8dtTatMVMw" alt="" />
-                    </div>
-                    <div className="slide-body__bg__image next--image">
-                        <img src="https://source.unsplash.com/9dmycbFE7mQ" alt="" />
-                    </div>
-                    <div className="slide-body__bg__image previous--image">
-                        <img src="https://source.unsplash.com/m7K4KzL5aQ8" alt="" />
-                    </div>
-                </div> */}
             </div>
         </div>
     )

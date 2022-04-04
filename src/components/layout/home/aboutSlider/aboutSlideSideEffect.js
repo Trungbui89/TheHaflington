@@ -24,7 +24,7 @@ function aboutSlideSideEffect() {
         setTimeout(() => {infoBorder.classList.add('active')},100)
     }
 
-    function turnLeft() {
+    function turnRight() {
         const slideLenght = slideItems.length
         disableBtn()
         infoBorderFade()
@@ -45,21 +45,19 @@ function aboutSlideSideEffect() {
                     slideItems[i+1].className = 'slide-card-items preview'
                     slideItems[slideLenght-1].className = 'slide-card-items active'
                     slideInfos[slideLenght-1].classList.add('active')
-
                     break
 
                 } else {
                     slideItems[i+1].className = 'slide-card-items preview'
                     slideItems[i-1].className = 'slide-card-items active'
                     slideInfos[i-1].classList.add('active')
-
                     break
                 }
             } else i++
         }
     }
 
-    function turnRight() {
+    function turnLeft() {
         const slideLenght = slideItems.length
         disableBtn()
         infoBorderFade()
@@ -74,21 +72,18 @@ function aboutSlideSideEffect() {
                     slideItems[0].className = 'slide-card-items active'
                     slideItems[i-1].className = 'slide-card-items next'
                     slideInfos[0].classList.add('active')
-
                     break
 
                 } else if(i === 0) {
                     slideItems[i+1].className = 'slide-card-items active'
                     slideItems[slideLenght-1].className = 'slide-card-items next'
                     slideInfos[i+1].classList.add('active')
-
                     break
 
                 } else {
                     slideItems[i+1].className = 'slide-card-items active'
                     slideItems[i-1].className = 'slide-card-items next'
                     slideInfos[i+1].classList.add('active')
-
                     break
                 }
             } else i++
