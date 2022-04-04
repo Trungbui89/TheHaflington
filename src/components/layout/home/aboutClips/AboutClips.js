@@ -20,7 +20,7 @@ function AboutClips() {
                     <div className="clips-content">
                         <div className="clips-card-items">
                             <div className="card-image">
-                                <img src="https://drive.google.com/file/d/1vt7ONnF2NDxkBOJAPuoN3X1EEpeKJZam/view?usp=sharing" alt="" />
+                                <img src="/assets/images/singer.jpg" alt="" />
                             </div>
                         </div>
                     </div>

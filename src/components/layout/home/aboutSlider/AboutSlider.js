@@ -21,19 +21,19 @@ function AboutSlider() {
                     <div className="slide-content">
                         <div className="slide-card-items preview">
                             <div className="card-image">
-                                <img src="https://drive.google.com/file/d/1Izadg1OsroNOSWronEWlGGw3GlV2r84J/view?usp=sharing" alt="" />
+                                <img src="/assets/images/slider/image-1.jpg" alt="" />
                             </div>
                         </div>
 
                         <div className="slide-card-items active">
                             <div className="card-image">
-                                <img src="https://drive.google.com/file/d/1beErW3bRuccA9suJJ166MCDVo7hnMtOl/view?usp=sharing" alt="" />
+                                <img src="/assets/images/slider/image-2.jpg" alt="" />
                             </div>
                         </div>
 
                         <div className="slide-card-items next">
                             <div className="card-image">
-                                <img src="https://drive.google.com/file/d/1KSlVf5ECOLNOtm6ASYNI2Z3NKCW-bDmY/view?usp=sharing" alt="" />
+                                <img src="/assets/images/slider/image-3.jpg" alt="" />
                             </div>
                         </div>
                     </div>
