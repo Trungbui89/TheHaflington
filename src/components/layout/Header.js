@@ -24,7 +24,7 @@ function Header()  {
                             <NavLink className="nav-link"  to='/TheHaflington'>Home</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="nav-link" to='/about'>About</NavLink>
+                            <NavLink className="nav-link" to='/news'>News</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink className="nav-link"  to='/menu'>Menu</NavLink>

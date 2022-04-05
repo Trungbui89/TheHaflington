@@ -12,6 +12,10 @@
     font-family: 'Raleway', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @keyframes fade-in-out {
     0% {
         transform: translateX(0);
@@ -76,6 +80,32 @@ body::-webkit-scrollbar {
 }
 
 /* header */
+
+.up-top-btn {
+    width: 55px;
+    height: 55px;
+    position: fixed;
+    z-index: 10;
+    border: 1px solid var(--body-text-color);
+    bottom: 65px;
+    right: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.up-top-btn::before {
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    transform: rotate(45deg);
+    border-top: 2px solid var(--body-text-color);
+    border-left: 2px solid var(--body-text-color);
+    top: 45%;
+}
+
 
 .navbar {
     background-color: var(--main-bg);

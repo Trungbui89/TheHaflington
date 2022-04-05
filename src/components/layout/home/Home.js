@@ -6,6 +6,14 @@ function Home() {
     const d = new Date()
 
     useEffect(() => {
+      const toTop = document.querySelector('.up-top-btn')
+      toTop.addEventListener('click', function() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      })
+    },[])
+
+    useEffect(() => {
       const parallax = document.querySelector('.home-container .top-bg-img')
       window.addEventListener('scroll', function() {
         let offset = window.scrollY
@@ -50,6 +58,7 @@ function Home() {
           </div>
         </div>
         <About />
+        <div className='up-top-btn' />
       </div>
     )
 }
