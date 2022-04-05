@@ -15,10 +15,15 @@ function Home() {
 
     useEffect(() => {
       const parallax = document.querySelector('.background-bot-container .img-container')
-      window.addEventListener('scroll', function() {
-        let offset = window.scrollY
-        parallax.style.backgroundPositionY = `${offset * 0.6}px`
-      })
+      const toBotImgBg = document.querySelector('.about-clips-container').scrollHeight +
+                    document.querySelector('.about-slide-container').scrollHeight +
+                    document.querySelector('.about-header-container').scrollHeight
+        window.addEventListener('scroll', function() {
+          if(window.scrollY >= toBotImgBg){                 
+            let offset = window.scrollY
+            parallax.style.backgroundPositionY = `${offset * 0.6}px`
+          }
+        })
     },[])
   
     return(

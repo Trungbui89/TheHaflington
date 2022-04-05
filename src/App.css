@@ -670,7 +670,7 @@ text-align: center;
 .footer {
     background-color: var(--main-bg);
     margin:0px auto;
-    padding: 50px 15px;
+    padding: 50px 35px;
 }
 
 .brand-footer {
@@ -706,11 +706,75 @@ text-align: center;
     margin-bottom: 0;
 }
 
+/* footer info */
+
 .footer-info {
     font-family: 'Montserrat', cursive;
-    font-size: 32px;
-    letter-spacing: 2px;
     color: var(--body-text-color);
+}
+
+.footer-open-times p {
+    font-size: 20px;
+    color: var(--body-text-color);
+    margin-bottom: 0;
+}
+
+.footer-contact p:nth-child(1),
+.footer-open-times p:nth-child(1) {
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--white-text);
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.footer-contact p:nth-child(2) {
+    font-size: 20px;
+    color: var(--body-text-color);
+    margin-bottom: 0;
+}
+
+.footer-contact p:nth-child(3) {
+    font-size: 20px;
+    color: var(--body-text-color);
+}
+
+/* social icons */
+
+.footer-icon {
+    display: flex;
+    flex-direction: column;
+    font-size: 26px;
+    justify-content: center;
+    padding: 0;
+}
+
+.footer-icon a {
+    color: var(--body-text-color);
+    text-decoration: none;
+}
+
+.footer-icon .fa {
+    border: 1px solid var(--body-text-color);
+    display: block;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--brand-color);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.footer-icon .fa:hover {
+    box-shadow: 0 0 24px rgba(168, 155, 105, .3);
+    background-color: rgb(18, 40, 63);
+}
+
+
+.footer-icon .fa-instagram {
+    margin: 16px 0;
 }
 
 /* responsive */

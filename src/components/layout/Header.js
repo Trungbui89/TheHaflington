@@ -15,13 +15,13 @@ function Header()  {
         <Navbar dark expand="md">
             <div className="container">
                 <NavbarToggler onClick={toggleNav} />
-                <NavbarBrand className="brand" href="/home">
+                <NavbarBrand className="brand" href="/TheHaflington">
                     <img src='https://raw.githubusercontent.com/Trungbui89/TheHaflington/51c3dec5f4a019443f8d45f1fb577331d6470afd/assets/icon/logo/small-logo.svg' alt='The Haflington' />
                 </NavbarBrand>
                 <Collapse isOpen={navState} navbar>
                     <Nav navbar>
                         <NavItem>
-                            <NavLink className="nav-link"  to='/home'>Home</NavLink>
+                            <NavLink className="nav-link"  to='/TheHaflington'>Home</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink className="nav-link" to='/about'>About</NavLink>
