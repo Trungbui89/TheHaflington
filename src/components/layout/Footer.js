@@ -24,9 +24,9 @@ function Footer() {
                         <p>Thứ 7, CN: 9AM - 12PM</p>
                     </div>
                     <div className='footer-icon col-12 col-md-2 col-lg-2'>
-                        <a href='https://www.facebook.com/' target='_blank'><i class="fa fa-facebook"></i></a>
-                        <a href='https://www.instagram.com/' target='_blank'><i class="fa fa-instagram"></i></a>
-                        <a href='https://twitter.com/' target='_blank'><i class="fa fa-twitter"></i></a>
+                        <a href='https://www.facebook.com/' target='_blank' rel="noopener noreferrer"><i className="fa fa-facebook"></i></a>
+                        <a href='https://www.instagram.com/' target='_blank' rel="noopener noreferrer"><i className="fa fa-instagram"></i></a>
+                        <a href='https://twitter.com/' target='_blank' rel="noopener noreferrer"><i className="fa fa-twitter"></i></a>
                     </div>
                 </div>
             </div>

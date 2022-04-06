@@ -1,0 +1,1 @@
+export const RENDER_NEWS = 'RENDER_NEWS';

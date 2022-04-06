@@ -12,11 +12,19 @@ function AboutSlider() {
             <div className="slide-body row">
                 <div className="cardList col-12 col-md-8 col-lg-8">
 
-                    <button className="slide-btn-left">
-                        <div className="slide-icon">
-                            <i className="fa fa-chevron-left" aria-hidden="true"></i>
-                        </div>
-                    </button>
+                    <div className="slide-btn">
+                        <button className="slide-btn-left">
+                            <div className="slide-icon">
+                                <i className="fa fa-chevron-left" aria-hidden="true"></i>
+                            </div>
+                        </button>
+
+                        <button className="slide-btn-right">
+                            <div className="slide-icon">
+                                <i className="fa fa-chevron-right" aria-hidden="true"></i>
+                            </div>
+                        </button>
+                    </div>
 
                     <div className="slide-content">
                         <div className="slide-card-items preview">
@@ -37,12 +45,6 @@ function AboutSlider() {
                             </div>
                         </div>
                     </div>
-
-                    <button className="slide-btn-right">
-                        <div className="slide-icon">
-                            <i className="fa fa-chevron-right" aria-hidden="true"></i>
-                        </div>
-                    </button>
                 </div>
 
                 <div className="infoList col-12 col-md-4 col-lg-4">
