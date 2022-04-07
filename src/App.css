@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
-@import './css/forMobile.css';
-@import './css/root.css';
+/* @import './css/forMobile.css'; */
+/* @import './css/root.css'; */
+
+:root {
+    --main-bg: #06101b;
+    --main-text-color: #90855d;
+    --body-text-color: #a89b69;
+    --white-text: #fcf2cb;
+    --brand-color: #0c1a29;
+}
 
 * {
     font-family: 'Raleway', sans-serif;
@@ -927,5 +935,276 @@ text-align: center;
     .w-1 {
         grid-column: span 1;
         grid-row: span 1;
+    }
+}
+
+/* mobile */
+
+@media screen and (max-width: 767px) {
+    
+    /* brand */
+
+    .navbar .brand{
+        position: relative;
+        left: 1%;
+    }
+
+    /* nav items */
+
+    .navbar-nav {
+        margin-top: 24px;
+    }
+
+    .navbar .nav-item {
+        padding: 8px 6px;
+    }
+
+    .navbar .nav-item a{
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 3px;
+    }
+    
+    /* brand-card */
+
+    .home-container .top-bg-img .brand-card {
+        margin-top: 15%;
+    }
+
+    .home-container .brand-card-container .info-top {
+        padding: 38px 20px 0;
+    }
+
+    .home-container .brand-card-container .info-top p:nth-child(1) {
+        font-size: .8rem;
+        letter-spacing: 2px;
+    }
+
+    .home-container .brand-card-container .info-top p:nth-child(2) {
+        font-size: .8rem;
+    }
+
+    .home-container .brand-card-container .info-top p:nth-child(3) {
+        font-size: .8rem;
+    }
+
+    .home-container .brand-card-container .info-middle {
+        padding: 0 20px 5px;
+    }
+
+    .home-container .brand-card-container .info-middle p:first-child{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        margin-bottom: 0;
+    }
+
+    .home-container .brand-card-container .info-middle p:last-child{
+        font-size: 1.9rem;
+        margin-bottom: 1rem;
+    }
+
+    .home-container .brand-card-container .info-bot {
+        padding: 5px 18px 32px;
+        font-size: .8rem;
+    }
+
+    .home-container .brand-card-container .info-bot p {
+        margin-bottom: 8px;
+    }
+
+    /* up-top-btn */
+
+    .up-top-btn {
+        right: 2rem;
+        bottom: 2rem;
+    }
+
+    /* top-bg-img */
+
+    .home-container .top-bg-img {
+        width: 100%;
+        height: 100%;
+        background: #000 url('https://raw.githubusercontent.com/Trungbui89/TheHaflington/gh-pages/assets/images/background/chess-player.jpg');
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* home about us */
+
+    .about-header-container {
+        margin-bottom: 60px;
+        margin-top: 55px;
+    }
+
+    .about-title-top {
+        font-weight: 500;
+        font-size: .8rem;
+    }
+
+    .about-title-bot p{
+        font-size: 20px;
+    }
+
+    .about-content {
+        margin-top: 32px;
+    }
+
+    .about-content p{
+        font-size: .8rem;
+    }
+
+    .about-arrow {
+        margin-top: 25px;
+    }
+
+    /* silde btn */
+
+    .slide-btn-left,
+    .slide-btn-right {
+        width: 38px;
+        height: 38px;
+    }
+
+    .slide-btn-left i,
+    .slide-btn-right i {
+        font-size: 20px;
+    }
+
+    /* silder panel*/
+
+    .about-slide-container .slide-content {
+        width: 90%;
+        height: 15rem;
+        margin-left: .5rem;
+    }
+
+    /* slide infomation vs clips infomation */
+
+    .infoList,
+    .about-clips-container .infoList {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .clips-info-body {
+        width: 90%;
+    }
+
+    .silde-info-body::after,
+    .silde-info-body::before {
+        position: absolute;
+        border-left: none;
+        border-bottom: 1px solid var(--body-text-color);
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+        width: 80%;
+    }
+
+    .clips-info-body::after,
+    .clips-info-body::before {
+        position: absolute;
+        border-left: none;
+        border-bottom: 1px solid var(--body-text-color);
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 3rem;
+        width: 80%;
+    }
+
+    .clips-info-body::before {
+        bottom: 2.5rem;
+        width: 70%;
+    }
+
+    .silde-info-body::before {
+        bottom: -0.5rem;
+        width: 70%;
+    }
+
+    .silde-info-item,
+    .clips-info-item {
+        left: 0;
+    }
+
+    .clips-info-item {
+        display: flex;
+        align-items: center;
+    }
+
+    .silde-info-item p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .clips-info-item p {
+        width: 90%;
+        text-align: center;
+    }
+
+    /* clips img */
+
+    .about-clips-container .card-image::after {
+        content: '';
+        width: 60%;
+        height: 60%;
+        position: absolute;
+        z-index: 5;
+        top: -5%;
+        left: 0;
+        border-top: none;
+        border-left: none;
+    }
+
+    .clips-card-items{
+        display: flex;
+        justify-content: center;
+    }
+
+    /* background img bot */
+
+    .background-bot-container {
+        width: 100%;
+        height: 70vh;
+    }
+
+    /* footer */
+
+    .footer-container > .row{
+        justify-content: center;
+    }
+
+    .footer-container > .row > div{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-contact,
+    .footer-open-times {
+        text-align: center;
+    }
+
+    .footer-contact p:first-child,
+    .footer-open-times p:first-child {
+        margin-bottom: 5px;
+    }
+
+    .footer-icon {
+        flex-direction: row;
+        margin-top: 38px;
+    }
+
+    .footer-icon .fa-instagram {
+        margin: 0 15px;
+    }
+
+    /* news */
+
+    .news .rows {
+        display: flex;
+        flex-direction: column;
     }
 }
