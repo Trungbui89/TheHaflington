@@ -1,8 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
 function Header()  {
+
+    useEffect(() => {
+        const toNewsBtn = document.querySelectorAll('.nav-link')
+        toNewsBtn.forEach((item) => {
+            item.addEventListener('click', () => {
+                window.scrollTo(0,0)
+            })
+        })
+    },[])
 
     const [navState, setNavState] = useState(false)
 
@@ -21,19 +30,19 @@ function Header()  {
                 <Collapse isOpen={navState} navbar>
                     <Nav navbar>
                         <NavItem>
-                            <NavLink className="nav-link"  to='/TheHaflington'>Home</NavLink>
+                            <NavLink onClick={toggleNav} className="nav-link"  to='/TheHaflington'>Home</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="nav-link" to='TheHaflington/news'>News</NavLink>
+                            <NavLink onClick={toggleNav} className="nav-link" to='/TheHaflington/news'>News</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="nav-link"  to='/menu'>Menu</NavLink>
+                            <NavLink onClick={toggleNav} className="nav-link"  to='/TheHaflington/menu'>Menu</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="nav-link"  to='/book'>Book</NavLink>
+                            <NavLink onClick={toggleNav} className="nav-link"  to='/TheHaflington/book'>Book</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="nav-link" to='/contact'>Contact</NavLink>
+                            <NavLink onClick={toggleNav} className="nav-link" to='/TheHaflington/contact'>Contact</NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>

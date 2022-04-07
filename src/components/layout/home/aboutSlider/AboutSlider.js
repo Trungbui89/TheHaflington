@@ -9,6 +9,7 @@ function AboutSlider() {
 
     return (
         <div className="about-slide-container">
+            {console.log('mounted')}
             <div className="slide-body row">
                 <div className="cardList col-12 col-md-8 col-lg-8">
 

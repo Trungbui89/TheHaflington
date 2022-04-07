@@ -28,11 +28,15 @@ function aboutSlideSideEffect() {
         const slideLenght = slideItems.length
         disableBtn()
         infoBorderFade()
+        console.log(this.props)
+
 
         for(let i = 0; i < slideLenght;) {
-                if(slideItems[i].className === 'slide-card-items active') {
-                    slideItems[i].className = 'slide-card-items next'
-                    slideInfos[i].classList.remove('active')
+            console.log(i)
+                
+            if(slideItems[i].className === 'slide-card-items active') {
+                slideItems[i].className = 'slide-card-items next'
+                slideInfos[i].classList.remove('active')
 
 
                 if(slideLenght-1 === i) {
@@ -63,6 +67,7 @@ function aboutSlideSideEffect() {
         infoBorderFade()
         
         for(let i = 0; i < slideLenght;) {
+            console.log(i)
             if(slideItems[i].className === 'slide-card-items active') {
                 slideItems[i].className = 'slide-card-items preview'
                 slideInfos[i].classList.remove('active')
