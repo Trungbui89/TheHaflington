@@ -1,15 +1,9 @@
-import React, { useEffect } from "react";
-import aboutSlideSideEffect from "./aboutSlideSideEffect";
+import React from "react";
 
 function AboutSlider() {   
-    
-    useEffect(() => {
-        aboutSlideSideEffect()
-    },[])
 
     return (
         <div className="about-slide-container">
-            {console.log('mounted')}
             <div className="slide-body row">
                 <div className="cardList col-12 col-md-8 col-lg-8">
 
