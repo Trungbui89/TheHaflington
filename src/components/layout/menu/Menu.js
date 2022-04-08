@@ -16,7 +16,11 @@ function Menu() {
             <div className="menu-1">
                 <div className="menu-1-bg" />
                 <div className="menu-1-content">
-
+                    <div className="menu-1-content-bg">
+                        <div className="menu-1-img">
+                            <img src="https://raw.githubusercontent.com/Trungbui89/TheHaflington/main/public/assets/images/menu/Cocktails-menu.png" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
