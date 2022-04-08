@@ -1063,8 +1063,67 @@ hr {
     align-items: center;
 }
 
-.menu-1-img img {
-    width: 30%;
+.menu-1-group {
+    left: 5rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.menu-1-info img {
+    width: 100%;
+    opacity: .9;
+    position: relative;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, .8) 0px 20px 30px -10px;
+}
+
+.menu-1-title,
+.menu-1-items {
+    position: absolute;
+    color: var(--body-text-color);
+}
+
+.menu-1-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'BIZ UDPMincho', serif;
+    top: 24.5%;
+}
+
+.menu-1-title h1{
+    font-size: 2rem;
+}
+
+.menu-1-items .item-1 {
+    position: relative;
+}
+
+.menu-1-items {
+    top: 39.5%;
+    height: 55%;
+    text-align: center;
+    width: 80%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.menu-1-items::-webkit-scrollbar {
+    display: none;
+  }
+
+.menu-1-items .top h2{
+    font-size: 1.5rem;
+}
+
+.item-1-icon img{
+    width: 9%;
+    height: 100%;
+    box-shadow: none;
+    padding: 1rem 0;
 }
 
 
