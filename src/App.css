@@ -1063,12 +1063,8 @@ hr {
     align-items: center;
 }
 
-.menu-1-content-bg {
-    width: 35%;
-    height: 50%;
-    background: url('https://raw.githubusercontent.com/Trungbui89/TheHaflington/main/public/assets/images/menu/Cocktails-menu.png') no-repeat;
-    position: absolute;
-    z-index: 2;
+.menu-1-img img {
+    width: 30%;
 }
 
 
