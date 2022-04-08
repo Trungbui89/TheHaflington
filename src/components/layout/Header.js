@@ -25,7 +25,7 @@ function Header()  {
             <div className="container">
                 <NavbarToggler onClick={toggleNav} />
                 <NavbarBrand className="brand" href="/TheHaflington">
-                    <img src='https://raw.githubusercontent.com/Trungbui89/TheHaflington/51c3dec5f4a019443f8d45f1fb577331d6470afd/assets/icon/logo/small-logo.svg' alt='The Haflington' />
+                    <img src='https://raw.githubusercontent.com/Trungbui89/TheHaflington/51c3dec5f4a019443f8d45f1fb577331d6470afd/assets/icon/logo/small-logo.svg' alt='The Haflington brand logo' />
                 </NavbarBrand>
                 <Collapse isOpen={navState} navbar>
                     <Nav navbar>

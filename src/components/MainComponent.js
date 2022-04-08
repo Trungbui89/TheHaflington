@@ -7,6 +7,7 @@ import Footer from './layout/Footer';
 import Home from './layout/home/Home';
 import News from './layout/news/News';
 import NewDetail from './layout/news/NewsDetail';
+import Menu from './layout/menu/Menu';
 import aboutSlideSideEffect from "./layout/home/aboutSlider/aboutSlideSideEffect";
 
 
@@ -44,6 +45,12 @@ function Main(props) {
         )
     }
 
+    const MenuPage = (() => {
+        return (
+            <Menu />
+        )
+    })
+
     return (
         <div>
             <Header />
@@ -53,6 +60,7 @@ function Main(props) {
                         <Route exact path='/TheHaflington' component={HomePage} />
                         <Route exact path='/TheHaflington/news' component={NewsPage} />
                         <Route path='/TheHaflington/news/:newsId' component={NewsInfo} />
+                        <Route exact path='/TheHaflington/menu' component={MenuPage} />
                         <Redirect to="/TheHaflington" />
                     </Switch>
                 </CSSTransition>
