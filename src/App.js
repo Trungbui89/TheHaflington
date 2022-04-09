@@ -5,6 +5,7 @@ import { ConfigureStore } from './store/reducer/configureStore';
 import Main from './components/MainComponent';
 import './css/root.css';
 import './App.css';
+import './css/forTaplet.css';
 import './css/forMobile.css';
 
 const store = ConfigureStore()

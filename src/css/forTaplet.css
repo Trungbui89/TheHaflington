@@ -1,0 +1,18 @@
+@import './root.css';
+
+@media screen and (min-device-width: 768px) and (max-device-height: 1366px) {
+
+    /* menu 1 */
+
+    .menu-1-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-1-group {
+        left: 0;
+        width: 90%;
+    }
+
+}

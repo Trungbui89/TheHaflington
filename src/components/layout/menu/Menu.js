@@ -18,7 +18,7 @@ function Menu() {
                 <div className="menu-1-content">
                     <div className="menu-1-info">
                         <div className="menu-1-group">
-                            <img src="https://raw.githubusercontent.com/Trungbui89/TheHaflington/main/public/assets/images/menu/Cocktails-menu.png" />
+                            <img src="https://raw.githubusercontent.com/Trungbui89/TheHaflington/main/public/assets/images/menu/Cocktails-menu.png" alt=""/>
                             <div className="menu-1-title">
                             <h1>COCKTAILS OF THE 1650-1800</h1>
                             <h1>PUNCH ERA</h1>
@@ -26,7 +26,7 @@ function Menu() {
                             <div className="menu-1-items">
                                 <div className="item-1">
                                     <div className="item-1-icon">
-                                        <img src="https://raw.githubusercontent.com/Trungbui89/TheHaflington/main/public/assets/icon/items/Cocktails-item.png" />
+                                        <img src="https://raw.githubusercontent.com/Trungbui89/TheHaflington/main/public/assets/icon/items/Cocktails-item.png" alt=""/>
                                     </div>
                                     <div className="top">
                                         <h2>FISH HOUSE PUNCH</h2>
@@ -41,7 +41,7 @@ function Menu() {
                                 </div>
                                 <div className="item-1">
                                     <div className="item-1-icon">
-                                        <img src="https://raw.githubusercontent.com/Trungbui89/TheHaflington/main/public/assets/icon/items/Cocktails-item.png" />
+                                        <img src="https://raw.githubusercontent.com/Trungbui89/TheHaflington/main/public/assets/icon/items/Cocktails-item.png" alt=""/>
                                     </div>
                                     <div className="top">
                                         <h2>FISH HOUSE PUNCH</h2>
@@ -56,7 +56,7 @@ function Menu() {
                                 </div>
                                 <div className="item-1">
                                     <div className="item-1-icon">
-                                        <img src="https://raw.githubusercontent.com/Trungbui89/TheHaflington/main/public/assets/icon/items/Cocktails-item.png" />
+                                        <img src="https://raw.githubusercontent.com/Trungbui89/TheHaflington/main/public/assets/icon/items/Cocktails-item.png" alt=""/>
                                     </div>
                                     <div className="top">
                                         <h2>FISH HOUSE PUNCH</h2>
